@@ -2,14 +2,16 @@
     box-sizing: border-box;
     font-size: 1rem;
     max-width: 400px;
+    display: inline-block;
+    margin: 10em auto ;
   }
   
   .calendar .header {
-    background-color:  rgb(102, 193, 255);
+    background-color:  black;
     text-align: center;
     min-height: 2rem;
     line-height: 2rem;
-    color: rgb(58, 58, 58);
+    color: rgba(139, 133, 133, 0.884);
     font-family: "AirbnbCerealBook", sans-serif;
     font-weight: 700;
     display: flex;
@@ -24,7 +26,7 @@
   }
   
   .calendar .body {
-    border: 1px solid rgb(102, 193, 255);
+    border: 1px solid black;
   }
   
   .calendar .header .previous {
@@ -81,10 +83,12 @@
   
   .calendar .day div.selected {
     background-color: rgb(206, 36, 36);
+    border-radius: 50px;
     color: white;
     font-weight: bold;
   }
   
   .calendar .day div.today {
     background-color: rgb(205, 205, 205);
+    border-radius: 50px;
   }
